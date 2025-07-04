@@ -1,7 +1,7 @@
 # python_autosync
-a python app that uses uploader premium to sync files in a folder to a remote source
+a python app that uses `uploader-premium` to sync files in a folder to a remote source
 
-basically it uses the uploader-premium's inbuilt API to not just upload files but to sync them accross the remote and local sources.
+basically it uses the `uploader-premium`'s inbuilt API to not just upload files but to sync them accross the remote and local sources. basically a bootleg git with no guardrails and instant push to production 😂.
 
 ## Requirements
 **required setup**
@@ -44,7 +44,7 @@ Feel free to make your own changes and submit a pull request whenever you feel l
 
 ## Note
 please note that:
-- it requires an uploader-premium API key to use. (ill give the steps to getting it once ive set it up)
+- it requires an `uploader-premium` API key to use. (ill give the steps to getting it once ive set it up)
 - its not perfect there are alot of opportunities to break the whole system
 - requires that you've set up uploader premium somewhere
 - its a work in progress so dont expect it to be perfect right out of the box
