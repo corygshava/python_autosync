@@ -1,0 +1,16 @@
+response.status_code       # HTTP status code (e.g. 200, 404)
+response.text              # Response content as Unicode text
+response.content           # Response content as bytes
+response.json()            # Response parsed as JSON (raises if not JSON)
+response.headers           # Dictionary-like object of response headers
+response.cookies           # Cookies set by the server
+response.url               # Final URL after redirection
+response.history           # List of Response objects from redirection chain
+response.encoding          # Encoding used to decode text
+response.elapsed           # Time taken for request (timedelta object)
+response.request           # The PreparedRequest object used
+response.reason            # Textual reason (e.g. "OK" for 200)
+response.ok                # True if status_code is < 400
+response.is_redirect       # True if status code is a redirection (e.g. 302)
+response.iter_content()    # Method to iterate content in chunks
+response.iter_lines()      # Method to iterate over response lines
